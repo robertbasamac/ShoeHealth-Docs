@@ -1,7 +1,7 @@
 # Shoe Health Privacy Policy
 
-**Effective Date:** November 8, 2024
-**Last Updated:** October 2025
+**Effective Date:** November 8, 2024  
+**Last Updated:** October 2025  
 **Owner:** Robert Iulian Basamac
 
 ---
@@ -93,5 +93,3 @@ We encourage you to review this document regularly.
 
 For privacy questions, media inquiries, or support, contact:  
 📧 **basamacr@icloud.com**
-
----
