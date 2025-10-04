@@ -1,0 +1,56 @@
+Shoe Health — Proprietary License
+Copyright © 2023 Robert Iulian Basamac. All rights reserved.
+
+Effective date: November 2024
+Owner: Robert Iulian Basamac
+Application: Shoe Health (including any related code, designs, visuals, and documentation)
+
+1. Ownership and Intellectual Property
+
+All source code, concepts, algorithms, designs, graphics, user interface elements, text, logos, icons, screenshots, videos, and all other materials related to Shoe Health (collectively “the Application”) are the exclusive intellectual property of Robert Iulian Basamac.
+
+Nothing in this license grants any ownership rights or permission to use, modify, distribute, reproduce, or create derivative works of the Application without the prior written consent of the owner.
+
+2. Use Restrictions
+
+You are not allowed to:
+- Copy, reproduce, or redistribute any portion of the Application or its source code.
+- Modify, reverse-engineer, decompile, disassemble, or derive the source code.
+- Reuse or adapt the design, user interface, or functionality for other software.
+- Publish or distribute the Application or any derivative works on the App Store or any other platform.
+- Use the Application or its materials for any commercial or promotional purpose without written authorization.
+
+Any of the above acts constitute a violation of copyright law and intellectual property rights and may result in civil and criminal penalties under applicable national and international law.
+
+3. Allowed Uses
+
+You may:
+- Download, install, and use the Application for personal and non-commercial purposes as distributed through official channels (e.g., Apple App Store).
+- Reference Shoe Health in reviews, articles, or academic discussions, provided proper attribution is given:
+  “Shoe Health by Robert Iulian Basamac — © 2025. All rights reserved.”
+
+4. Press, Reviews and Media
+
+Media outlets, reviewers, or tech blogs may request review access (screenshots, press kit, or TestFlight invite) by contacting the developer at
+basamacr@icloud.com.
+Unauthorized use of the source code or redistribution of internal files is strictly prohibited.
+
+5. Legal Protection
+
+Shoe Health and its visual identity (including name, logo, and icons) are protected by copyright and may be protected under registered trademark laws.
+All intellectual property rights are reserved worldwide.
+Any infringement, duplication, or imitation may result in legal action.
+
+6. Disclaimer
+
+The Application is provided “as is” without warranty of any kind, express or implied, including but not limited to fitness for a particular purpose or non-infringement.
+Use of the Application is at your own risk. The author is not responsible for any data loss, device malfunction, or other issues arising from use of the Application.
+
+7. Contact
+
+For licensing, collaboration, or press inquiries, contact:
+Robert Iulian Basamac
+Email: basamacr@icloud.com
+Romania, EU
+
+(End of License)
