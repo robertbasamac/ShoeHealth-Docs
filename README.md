@@ -60,7 +60,7 @@ All data stays private — stored securely in iCloud and on your device, never s
 Shoe Health, including its source code, design, algorithms, visuals, and documentation, is proprietary software protected under copyright and intellectual property laws.  
 Unauthorized copying, redistribution, modification, or rebranding of the app or its components is strictly prohibited.
 
-For the full license, see [LICENSE.txt](./LICENSE.txt).  
+For the full license, see [LICENSE](./LICENSE.txt).  
 For privacy details, see [Privacy Policy](./PRIVACY_POLICY.md).
 
 ---
