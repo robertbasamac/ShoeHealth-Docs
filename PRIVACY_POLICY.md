@@ -1,6 +1,6 @@
 # Shoe Health Privacy Policy
 
-**Effective Date:** April 27, 2026
+**Effective Date:** May 11, 2026
 **Owner:** Robert Iulian Basamac
 **App:** Shoe Health (iOS) — App Store ID 6648781147
 
@@ -8,12 +8,12 @@
 
 ## 1. Summary (Plain English)
 
-Shoe Health is built around one principle: **your data belongs to you, and stays with you.**
+Shoe Health is built around one principle: **your training data belongs to you, and stays with you.**
 
-- We do **not** run analytics, tracking, advertising, or third-party SDKs.
-- Your shoe profiles live on your device and your private iCloud container.
-- Apple Health data is processed in-memory only — never written to a server, never shared.
+- Your shoe profiles, workouts, and Apple Health data live on your device and your private iCloud container. We never transmit them.
 - Premium purchases are handled by Apple; we never see your payment details.
+- The App includes the **Meta SDK** to measure the performance of advertising campaigns we run on Facebook and Instagram. Meta receives a limited set of standard events (install, sessions, in-app purchase events) tied to anonymous device identifiers — and only with your permission for full attribution. The exact list is in Section 3.5, and you control it through the iOS tracking prompt.
+- We do **not** operate our own servers, analytics platforms, or marketing email lists.
 
 The full document below explains the same thing in detail and lists your rights under GDPR (EU/EEA/UK) and CCPA (California).
 
@@ -53,31 +53,66 @@ When you buy Premium, Apple processes the transaction. We receive only an anonym
 
 If you have enabled "Share with App Developers" in **iOS Settings → Privacy & Security → Analytics & Improvements**, Apple may share aggregated, anonymous crash and performance reports with us through App Store Connect. We use these only to diagnose bugs and improve stability. We never receive personally identifiable information through this channel.
 
+### 3.5 Marketing Attribution (Meta SDK)
+
+To measure the effectiveness of advertising campaigns we run on Facebook and Instagram, Shoe Health includes the Meta SDK (also known as the Facebook SDK for iOS). This SDK transmits a limited set of standard events to **Meta Platforms, Inc.** ("Meta") whenever the App is opened:
+
+- **Install event** — fired once, the first time you open the App after installing it.
+- **App activation and session events** — when you open the App and the duration of your session.
+- **In-app purchase events** — when you start a free trial or buy a subscription: product identifier, currency, and transaction amount. Apple processes the actual payment; we never see your payment method, and Meta receives only the transaction event (no card data or billing details).
+- **Technical context** — device model, iOS version, locale, time zone, App version, and your device's IP address (implicit from the network request).
+- **Device identifiers** — a per-vendor anonymous identifier (**IDFV**) is always shared. Your advertising identifier (**IDFA**) is shared **only if you grant tracking permission** through the iOS App Tracking Transparency prompt.
+
+We **never** share with Meta:
+
+- ❌ Apple Health data (workouts, distance, heart rate, running power, steps)
+- ❌ Your shoe profiles (brands, models, photos, nicknames, purchase dates, wear data)
+- ❌ Any text you enter inside the App
+- ❌ Your location
+
+#### Your control
+
+The first time you finish the onboarding flow, iOS shows a system prompt asking whether to allow tracking. You may also change this at any time in **Settings → Privacy & Security → Tracking → Shoe Health**.
+
+- **"Allow"** — Meta receives your IDFA, enabling more accurate campaign attribution and audience matching with your Facebook/Instagram profile.
+- **"Ask App Not to Track"** — Meta receives only anonymous, aggregated reports through Apple's privacy-preserving **SKAdNetwork** framework. No IDFA is shared, and no event-level data can be tied back to your social-media profile.
+
+Either way, the technical context above and the IDFV are still sent. If you wish to send no events at all, you may uninstall the App.
+
+#### Legal basis under GDPR
+
+Where GDPR applies, our legal basis for sharing identifier-linked events with Meta is **your consent**, given through the ATT prompt (Art. 6(1)(a) GDPR). If you do not consent, only SKAdNetwork's aggregated reports — which carry no individual identifier — are exchanged, and the legal basis is our **legitimate interest** in measuring overall campaign performance in a privacy-preserving manner (Art. 6(1)(f) GDPR).
+
+For details on how Meta processes data it receives from app developers, see Meta's [Privacy Policy](https://www.facebook.com/privacy/policy/) and their [Business Tools Terms](https://www.facebook.com/legal/terms/businesstools).
+
 ---
 
 ## 4. What We Do NOT Collect
 
 - ❌ No name, email, account, or login
 - ❌ No location, GPS, or geolocation data
-- ❌ No advertising identifiers (IDFA)
-- ❌ No third-party analytics (no Firebase, Mixpanel, Amplitude, etc.)
-- ❌ No device fingerprinting or behavioural tracking
-- ❌ No social-media SDKs
+- ❌ No transmission of Apple Health data — workouts, distance, heart rate, power, and steps never leave your device
+- ❌ No transmission of your shoe profiles — brands, models, photos, nicknames, and wear data never leave your device
+- ❌ No third-party analytics platforms beyond the Meta marketing-attribution events described in Section 3.5 (no Firebase, Mixpanel, Amplitude, Google Analytics, etc.)
+- ❌ No device fingerprinting beyond the standard device context described in Section 3.5
+- ❌ No first-party advertising shown inside the App
 
-This is reflected in the App Store "App Privacy" labels — Health data is the only category linked to you, and it is processed locally.
+The App Store "App Privacy" labels reflect the limited tracking described in Section 3.5. All Health data, shoe profiles, and workout statistics remain on your device — they are never transmitted to us or to any third party.
 
 ---
 
 ## 5. How We Use Your Data
 
-The Apple Health data and your shoe profiles are used **exclusively** to:
+Apple Health data and your shoe profiles are used **exclusively** to:
 
 1. Calculate per-shoe wear, total distance, and statistics.
 2. Estimate retirement dates based on your training pace.
 3. Generate rotation suggestions across your run types.
 4. Trigger local notifications (overuse, wear-threshold, recovery, ready).
 
-All processing happens **on your device**. We never receive, store, or transmit this data on our servers — we do not operate any servers that handle user data.
+All of the above processing happens **on your device**. Apple Health data and your shoe profiles are never received, stored, or transmitted on our servers — we do not operate any servers that handle this data.
+
+The marketing-attribution events described in Section 3.5 are used to measure how many users discover and install the App through advertising campaigns we run on Meta platforms, and to optimize those campaigns. They are not combined with your Apple Health data or shoe profiles in any way.
 
 ---
 
@@ -94,9 +129,10 @@ When you delete the App, all on-device data is removed by iOS. iCloud-synced dat
 
 ## 7. Sharing of Data
 
-We do not sell, rent, or share your personal information with any third party. The only entities involved in the App's operation are:
+We do not sell or rent your personal information. We share only the limited data described in Section 3.5 with one third party, and only for the marketing-attribution purpose stated there. The entities involved in the App's operation are:
 
 - **Apple** — App Store distribution, Apple Health data access, iCloud sync, in-app purchase processing. Apple acts as an independent data controller for these flows under its own [Privacy Policy](https://www.apple.com/legal/privacy/).
+- **Meta Platforms, Inc.** — the marketing-attribution events described in Section 3.5 only. Meta acts as an independent data controller for the events it receives, under its own [Privacy Policy](https://www.facebook.com/privacy/policy/). No Apple Health data and no shoe-profile data is ever shared with Meta.
 
 ---
 
@@ -140,7 +176,10 @@ We do not retain personal data on external servers. Your data lives only on your
 
 ## 11. International Transfers
 
-Because we do not collect or store user data on our servers, no international transfer of personal data takes place by us. Apple may process iCloud, App Store, and Apple Health data on infrastructure outside your home jurisdiction; this is governed by Apple's own policies and safeguards.
+We do not collect or store user data on our own servers, so no international transfer happens directly through us. However, two of the data flows described above involve processing outside your home jurisdiction:
+
+- **Apple** may process iCloud, App Store, and Apple Health data on infrastructure outside your home jurisdiction; this is governed by Apple's own policies and safeguards.
+- **Meta** processes the marketing-attribution events described in Section 3.5 on infrastructure that includes data centers in the United States. For users in the EEA, the UK, and Switzerland, Meta relies on Standard Contractual Clauses and the EU-US Data Privacy Framework as transfer safeguards. Details are in Meta's [Privacy Policy](https://www.facebook.com/privacy/policy/).
 
 ---
 

@@ -1,6 +1,6 @@
 # Shoe Health Terms of Service
 
-**Effective Date:** April 27, 2026
+**Effective Date:** May 11, 2026
 **Owner:** Robert Iulian Basamac
 **App:** Shoe Health (iOS) — App Store ID 6648781147
 
