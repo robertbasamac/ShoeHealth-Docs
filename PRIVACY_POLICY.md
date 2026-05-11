@@ -21,7 +21,7 @@ The full document below explains the same thing in detail and lists your rights 
 
 ## 2. Who We Are
 
-Shoe Health is developed by **Robert Iulian Basamac**, an independent developer based in Romania. For privacy questions, write to 📧 **basamacr@icloud.com**.
+Shoe Health is developed by **Robert Iulian Basamac**, an independent developer based in Romania. For privacy questions, write to **basamacr@icloud.com**.
 
 We are the data controller under GDPR for the limited data described in this Policy.
 
@@ -65,10 +65,10 @@ To measure the effectiveness of advertising campaigns we run on Facebook and Ins
 
 We **never** share with Meta:
 
-- ❌ Apple Health data (workouts, distance, heart rate, running power, steps)
-- ❌ Your shoe profiles (brands, models, photos, nicknames, purchase dates, wear data)
-- ❌ Any text you enter inside the App
-- ❌ Your location
+- Apple Health data (workouts, distance, heart rate, running power, steps)
+- Your shoe profiles (brands, models, photos, nicknames, purchase dates, wear data)
+- Any text you enter inside the App
+- Your location
 
 #### Your control
 
@@ -89,13 +89,13 @@ For details on how Meta processes data it receives from app developers, see Meta
 
 ## 4. What We Do NOT Collect
 
-- ❌ No name, email, account, or login
-- ❌ No location, GPS, or geolocation data
-- ❌ No transmission of Apple Health data — workouts, distance, heart rate, power, and steps never leave your device
-- ❌ No transmission of your shoe profiles — brands, models, photos, nicknames, and wear data never leave your device
-- ❌ No third-party analytics platforms beyond the Meta marketing-attribution events described in Section 3.5 (no Firebase, Mixpanel, Amplitude, Google Analytics, etc.)
-- ❌ No device fingerprinting beyond the standard device context described in Section 3.5
-- ❌ No first-party advertising shown inside the App
+- No name, email, account, or login
+- No location, GPS, or geolocation data
+- No transmission of Apple Health data — workouts, distance, heart rate, power, and steps never leave your device
+- No transmission of your shoe profiles — brands, models, photos, nicknames, and wear data never leave your device
+- No third-party analytics platforms beyond the Meta marketing-attribution events described in Section 3.5 (no Firebase, Mixpanel, Amplitude, Google Analytics, etc.)
+- No device fingerprinting beyond the standard device context described in Section 3.5
+- No first-party advertising shown inside the App
 
 The App Store "App Privacy" labels reflect the limited tracking described in Section 3.5. All Health data, shoe profiles, and workout statistics remain on your device — they are never transmitted to us or to any third party.
 
@@ -192,6 +192,6 @@ We may update this Privacy Policy as features evolve or laws change. The "Effect
 ## 13. Contact
 
 For privacy questions, data requests, or media inquiries:
-📧 **basamacr@icloud.com**
+**basamacr@icloud.com**
 
 If you are based in the EEA or UK and remain unsatisfied with our response, you may contact your national data protection authority.

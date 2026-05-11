@@ -119,4 +119,4 @@ Your use of the App is also subject to our [Privacy Policy](PRIVACY_POLICY.md), 
 ## 14. Contact
 
 For questions about these Terms, contact:
-📧 **basamacr@icloud.com**
+**basamacr@icloud.com**
