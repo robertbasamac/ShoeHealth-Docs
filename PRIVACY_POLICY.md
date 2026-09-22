@@ -1,6 +1,6 @@
 # Shoe Health Privacy Policy
 
-**Effective Date:** May 11, 2026
+**Effective Date:** September 13, 2026
 **Owner:** Robert Iulian Basamac
 **App:** Shoe Health (iOS) — App Store ID 6648781147
 
@@ -13,7 +13,7 @@ Shoe Health is built around one principle: **your training data belongs to you, 
 - Your shoe profiles, workouts, and Apple Health data live on your device and your private iCloud container. We never transmit them.
 - Premium purchases are handled by Apple; we never see your payment details.
 - The App includes the **Meta SDK** to measure the performance of advertising campaigns we run on Facebook and Instagram. Meta receives a limited set of standard events (install, sessions, in-app purchase events) tied to anonymous device identifiers — and only with your permission for full attribution. The exact list is in Section 3.5, and you control it through the iOS tracking prompt.
-- We do **not** operate our own servers, analytics platforms, or marketing email lists.
+- The website uses Google Analytics only after you accept analytics cookies. You can change your choice using Cookie preferences in the footer. This is separate from the iOS App.
 
 The full document below explains the same thing in detail and lists your rights under GDPR (EU/EEA/UK) and CCPA (California).
 
@@ -41,9 +41,9 @@ Shoe Health requests read access to selected Apple Health data so it can attribu
 
 You can grant or revoke each permission at any time in **Settings → Health → Data Access & Devices → Shoe Health**.
 
-### 3.2 Shoe Profile Data (entered by you)
+### 3.2 Shoe Profile Data
 
-Brand, model, nickname, photo, purchase date, run-type assignment, plus the wear and statistics computed from your workouts. Stored on your device and synced through your private iCloud container.
+Brand, model, nickname, photo, purchase date, run-type assignment, and shoe specifications — whether you enter them yourself or select a model from the app's built-in shoe catalog — plus the wear and statistics computed from your workouts. This data is stored on your device and synced through your private iCloud container. It lives in your personal iCloud database, which we, as the developer, cannot access.
 
 ### 3.3 In-App Purchase Data
 
@@ -85,9 +85,19 @@ Where GDPR applies, our legal basis for sharing identifier-linked events with Me
 
 For details on how Meta processes data it receives from app developers, see Meta's [Privacy Policy](https://www.facebook.com/privacy/policy/) and their [Business Tools Terms](https://www.facebook.com/legal/terms/businesstools).
 
+### 3.6 Website Analytics and Cookie Preferences
+
+On shoehealth.app, we use Google Analytics 4, provided by Google, only after you choose "Accept analytics". It helps us understand page visits, traffic sources, and website interactions. Google may receive page URLs, referring URLs, browser and device information, and cookie identifiers. Website analytics does not receive your Apple Health or shoe-profile data.
+
+Before you accept, we do not load the Google Analytics tag. If you reject, analytics stays off. Advertising storage, advertising user data, and personalized advertising remain disabled. You can withdraw your choice at any time using **Cookie preferences** in the footer. Withdrawal stops future analytics collection and clears accessible Google Analytics cookies from this website; it does not automatically erase data already sent to Google.
+
+We save your choice in your browser's local storage for up to 180 days. This preference is used only to remember your decision. If browser storage is unavailable, your choice applies to the current page and you may be asked again on another page. Analytics cookies are configured to expire after 180 days without automatic expiry renewal.
+
+Website analytics is based on your consent. Google processes analytics data on its infrastructure, which may be outside your country. For details about Google's processing, retention, and safeguards, see [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites). For questions or requests concerning website analytics data, contact basamacr@icloud.com.
+
 ---
 
-## 4. What We Do NOT Collect
+## 4. What We Do NOT Collect in the iOS App
 
 - No name, email, account, or login
 - No location, GPS, or geolocation data
@@ -121,7 +131,7 @@ The marketing-attribution events described in Section 3.5 are used to measure ho
 - **On-device** — your shoe profiles are stored in the App's local SwiftData store.
 - **iCloud** — synced through Apple's CloudKit using your private container; encrypted in transit and at rest by Apple.
 - **Apple Health** — read in-memory only; never copied to a database, file, or server.
-- **No third-party cloud, no third-party access.**
+- The shoe and workout storage described here is separate from the marketing and website analytics processing in Sections 3.5 and 3.6.
 
 When you delete the App, all on-device data is removed by iOS. iCloud-synced data remains in your iCloud account until you delete it (Settings → [your name] → iCloud → Manage Storage → Shoe Health) or restore it on a new device with the same Apple ID.
 
@@ -129,7 +139,7 @@ When you delete the App, all on-device data is removed by iOS. iCloud-synced dat
 
 ## 7. Sharing of Data
 
-We do not sell or rent your personal information. We share only the limited data described in Section 3.5 with one third party, and only for the marketing-attribution purpose stated there. The entities involved in the App's operation are:
+We do not sell or rent your personal information. The App shares the marketing-attribution data described in Section 3.5 with Meta. The website shares analytics data with Google only with your consent, as described in Section 3.6. The entities involved in the App's operation are:
 
 - **Apple** — App Store distribution, Apple Health data access, iCloud sync, in-app purchase processing. Apple acts as an independent data controller for these flows under its own [Privacy Policy](https://www.apple.com/legal/privacy/).
 - **Meta Platforms, Inc.** — the marketing-attribution events described in Section 3.5 only. Meta acts as an independent data controller for the events it receives, under its own [Privacy Policy](https://www.facebook.com/privacy/policy/). No Apple Health data and no shoe-profile data is ever shared with Meta.
@@ -170,13 +180,13 @@ Shoe Health is **not directed at children under 13** (or under the digital-conse
 
 ## 10. Data Retention
 
-We do not retain personal data on external servers. Your data lives only on your device and in your iCloud account, controlled entirely by you. When you uninstall the App, on-device data is removed by iOS; iCloud data persists until you delete it through Apple's iCloud settings.
+Your shoe profiles and workouts live on your device and in your private iCloud account. Website analytics and the saved cookie preference are described separately in Section 3.6. When you uninstall the App, on-device data is removed by iOS; iCloud data persists until you delete it through Apple's iCloud settings.
 
 ---
 
 ## 11. International Transfers
 
-We do not collect or store user data on our own servers, so no international transfer happens directly through us. However, two of the data flows described above involve processing outside your home jurisdiction:
+We do not collect or store user data on our own servers, so no international transfer happens directly through us. Website analytics processing by Google is described in Section 3.6. The following App data flows involve processing outside your home jurisdiction:
 
 - **Apple** may process iCloud, App Store, and Apple Health data on infrastructure outside your home jurisdiction; this is governed by Apple's own policies and safeguards.
 - **Meta** processes the marketing-attribution events described in Section 3.5 on infrastructure that includes data centers in the United States. For users in the EEA, the UK, and Switzerland, Meta relies on Standard Contractual Clauses and the EU-US Data Privacy Framework as transfer safeguards. Details are in Meta's [Privacy Policy](https://www.facebook.com/privacy/policy/).
